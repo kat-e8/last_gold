@@ -7,7 +7,7 @@ services:
     hostname: gw
     container_name: goud_gw
     ports:
-      - 9092:8088
+      - 9099:8088
     volumes:
       - gw-data:/usr/local/bin/ignition/data
      # - ./gw-init/gateway.gwbk:/restore.gwbk
