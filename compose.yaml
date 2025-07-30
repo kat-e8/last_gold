@@ -34,7 +34,7 @@ services:
       - MSSQL_SA_PASSWORD=yourStrong(!)Password
       - MSSQL_PID=Developer
     ports:
-      - 1435:1433
+      - 1437:1433
     volumes:
       - sqldb-data:/var/opt/mssql
     restart: always
