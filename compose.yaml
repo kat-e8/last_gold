@@ -24,7 +24,7 @@ services:
       tsdproxy.ephemeral: false
     restart: unless-stopped
     command: >
-      -n gw
+      -n dbs_gw
       -m 2048
       -r /restore.gwbk
   sqldb:
